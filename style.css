@@ -1,0 +1,133 @@
+
+  @font-face {
+    font-family: "Celias";
+    src: url("C:\Users\Utilisateur\Desktop\WEB3\NOVUS\WebSite\font\Celias.woff2") format("woff2"),
+         url("C:\Users\Utilisateur\Desktop\WEB3\NOVUS\WebSite\font\Celias.woff") format("woff"),
+         url("C:\Users\Utilisateur\Desktop\WEB3\NOVUS\WebSite\font\Celias.eot") format("eot"),
+         url("C:\Users\Utilisateur\Desktop\WEB3\NOVUS\WebSite\font\Celias.ttf") format("ttf");
+         font-weight: 400;
+         font-style: normal;
+         font-display: swap;
+  }
+  body {
+      background:radial-gradient(rgb(255, 255, 255));
+    }
+
+  h1 {
+    color: #2e2e37;
+    font-family: Celias;
+    font-size: 80px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 150px;
+
+  }
+
+  h2 {
+    font-family: Celias;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background: #2e2e37;
+    width: 400px;
+    text-align: center;
+    margin-left: 350px;
+    }
+    .IdeaBulb {
+      transform: rotate(20deg);
+      padding-left: 300px;
+    }
+  p {
+    color: #2e2e37;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    font-family: Celias;
+
+
+  }
+
+  .logoImage { /*#2e2e37*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 8px;
+    width: 200px;
+
+  }
+  
+  .topnav {
+    background-color: #2e2e37;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: none;
+    position: relative;
+    left: 300px;
+    font-family: Celias;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(120, 255, 115);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: rgb(120, 255, 115);
+    color: rgb(0, 0, 0);
+  }
+
+  .btnSignIn {
+    position:absolute;
+    width:150px;
+    height:30px;
+    background:rgb(120, 255, 115);
+    right:250px;
+    top:100px;
+    border: #2e2e37;
+    font-family: Celias;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+
+  .btnSignIn:hover {opacity: 1;}
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after image containers */
+  .TopNft::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+  }
+
+  .TopNft {
+    margin-left: 150px;
+  }
+
+  .blankSpace{
+    height: 50px;
+  }
+
+  .footer {
+    background-color: #2e2e37;
+  }
+  .footer-content-wrapper {
+    padding-top: 600px;
+  }
